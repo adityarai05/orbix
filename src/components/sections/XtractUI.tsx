@@ -348,9 +348,6 @@ export function XtractUI() {
               <p className="text-gray-500 font-medium text-lg leading-snug max-w-sm mb-6">
                 If you're looking for operational clarity and intelligent automation, let's build it together.
               </p>
-              <button className="flex items-center gap-2 text-black font-bold text-xl hover:opacity-70 transition-opacity">
-                Get Started <ArrowRight className="w-5 h-5" />
-              </button>
             </div>
           </div>
 

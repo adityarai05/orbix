@@ -120,19 +120,6 @@ const Landing = () => {
                 {/* Newsletter Box */}
                 <div className="flex flex-col w-full md:w-[320px]">
                   <h4 className="text-[2.5rem] md:text-5xl font-bold tracking-tight mb-4 text-white">Stay connected</h4>
-
-                  <div className="relative border-b border-white/20 pb-3 flex items-center group mt-8">
-                    <input
-                      type="email"
-                      placeholder="E-mail"
-                      className="w-full bg-transparent outline-none text-lg text-white placeholder:text-gray-400 font-semibold"
-                    />
-                    <button className="absolute right-0 w-8 h-8 rounded-full bg-[#ff4a3d] flex items-center justify-center shadow-sm group-hover:-rotate-45 group-hover:bg-[#e03b2f] transition-all">
-                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                        <path d="M5 12h14M12 5l7 7-7 7" />
-                      </svg>
-                    </button>
-                  </div>
                 </div>
 
                 {/* Links */}
@@ -141,10 +128,6 @@ const Landing = () => {
                     <button onClick={() => scrollToSection("top")} className="text-left hover:text-gray-300 transition-colors">Home</button>
                     <button onClick={() => scrollToSection("features")} className="text-left hover:text-gray-300 transition-colors">Features</button>
                     <button onClick={() => scrollToSection("training")} className="text-left hover:text-gray-300 transition-colors">Demo</button>
-                  </div>
-                  <div className="flex flex-col gap-3">
-                    <a href="#" className="hover:text-gray-300 transition-colors">Twitter</a>
-                    <a href="#" className="hover:text-gray-300 transition-colors">Instagram</a>
                   </div>
                 </div>
 
